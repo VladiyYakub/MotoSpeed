@@ -15,7 +15,6 @@ public class Parallax : MonoBehaviour
     {
         _image= GetComponent<RawImage>();   
     }
-
     
     private void Update()
     {

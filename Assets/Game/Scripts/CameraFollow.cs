@@ -1,7 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-
 public class CameraFollow : MonoBehaviour
 {
     public Transform Target;
@@ -13,6 +10,6 @@ public class CameraFollow : MonoBehaviour
     }
     private void Update()
     {
-        transform.position = new Vector3(Target.position.x + _offset.x,0, Target.position.z + _offset.z);
+        transform.position = new Vector3(Target.position.x + _offset.x, 0, Target.position.z + _offset.z);
     }
 }
