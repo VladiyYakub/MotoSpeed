@@ -17,7 +17,7 @@ public class Wheel : MonoBehaviour
     private void Update()
     {
         float Force = Input.GetAxis("Horizontal");
-        _motor.motorSpeed = Speed * Force;
+        _motor.motorSpeed = Speed * -Force;
         _wheel.motor = _motor;
     }
 }
