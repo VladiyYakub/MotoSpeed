@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Game/Scenes/MotoSpeed.unity
+    path: Assets/Game/Scenes/MotoSpeedPriew.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: 21fca5cc5cf48d542bed60235580cb44, type: 2}
