@@ -1033,7 +1033,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1c1f7d9f43f24e4284e817aed2a1fdb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Target: {fileID: 1749285679}
+  _followTarget: {fileID: 1749285679}
 --- !u!114 &1835056668
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1046,7 +1046,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1c1f7d9f43f24e4284e817aed2a1fdb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Target: {fileID: 1273137161}
+  _followTarget: {fileID: 1273137161}
 --- !u!4 &1900144442 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2680929602010429070, guid: a2a7b36396870944e818d0c2be04bde0, type: 3}

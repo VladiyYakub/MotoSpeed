@@ -1,15 +1,16 @@
 using UnityEngine;
 public class CameraFollow : MonoBehaviour
 {
-    public Transform Target;
+    [SerializeField] private Transform _followTarget;
+   
     private Vector3 _offset;
 
     private void Start()
     {
-        _offset = transform.position - Target.position;
+        _offset = transform.position - _followTarget.position;
     }
     private void Update()
     {
-        transform.position = new Vector3(Target.position.x + _offset.x, 10, Target.position.z + _offset.z);
+        transform.position = new Vector3(_followTarget.position.x + _offset.x, 10, _followTarget.position.z + _offset.z);
     }
 }
